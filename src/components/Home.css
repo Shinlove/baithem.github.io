@@ -1,0 +1,105 @@
+.img img{
+    height: 370px;
+    object-fit: cover;
+    animation: zoom 0.9s linear;
+}
+.banner {
+    height: 370px;
+
+}
+.wide {
+        border-top: 7px solid rgb(190, 15, 15);
+        padding-bottom: 40px;  
+}
+@keyframes zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+.line {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.column {
+    object-fit: cover;
+}
+.black {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.black:hover {
+    color: black;
+}
+.new {
+    border-bottom: 4px solid rgb(190, 15, 15);
+    width: 313px;
+}
+.new-home {
+    position: absolute;
+    top: 152px;
+    left: 12px;
+    background: rgb(190, 15, 15);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.more {
+    position: relative;
+    height: 34px;
+    width: 100%;
+    background-color: rgb(190, 15, 15);
+    color: #ffffff;
+    align-items: center;
+}
+.more-option {
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    left: 46%;
+    top: 15%;
+}
+.more-option:hover {
+    color: #ffffff;
+    transform: translateX(-10px);
+}
+.more-option:hover .drop-right {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 108%;
+
+}
+.drop-right {
+    
+    display: none;
+}
+.event {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.tuyensinh {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1.3em;
+}
+.dflex {
+    display: flex;
+}
+.dflex-arow {
+    display: flex;
+    justify-content: space-around;
+}
+.chung {
+    width: 270px;
+    padding-left: 5px;
+}
